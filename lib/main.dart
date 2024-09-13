@@ -1,7 +1,6 @@
-import 'package:admin/my_app.dart';
-import 'package:flutter/material.dart';
+import 'package:admin/src/app.dart';
+import 'package:fluent_ui/fluent_ui.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
+Future<void> main() async {
+  runApp(const MyApp()); // Running the app in debug mode.
 }
