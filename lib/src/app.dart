@@ -1,5 +1,6 @@
-import 'package:admin/src/features/authentication/authentication.dart';
 import 'package:fluent_ui/fluent_ui.dart';
+
+import 'package:admin/src/features/authentication/authentication.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -7,9 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Returning the FluentApp widget with the necessary configurations
-    return FluentApp(
-      debugShowCheckedModeBanner: false,
-      home: const SignUpScreen()
-    );
+    return const FluentApp(
+        debugShowCheckedModeBanner: false, home: SignInScreen());
   }
 }
