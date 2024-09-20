@@ -1,3 +1,3 @@
 import 'dart:mirrors';
 
-AbstractClassInstantiationError
+AbstractClassInstantiationErro
